@@ -1,0 +1,87 @@
+.team-logo
+{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.team-logo h1
+{
+    text-transform: capitalize;
+    letter-spacing: .5rem;
+    font-size: 12px;
+    background: -webkit-linear-gradient(#003EB5, #FF9327);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*service cards conatiner */
+
+.service-container
+{
+    width: 100%;
+    height: auto;
+    background: url(../../images/services-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* service section cards css */
+
+.service-card
+{
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.service-card img
+{
+    width: 80px;
+}
+
+.service-card h1
+{
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #2E70A6;
+    background: url(../../images/heading-bg.png);
+    background-repeat: no-repeat;
+}
+
+.service-card p
+{
+    font-size: .9rem;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .service-card
+    {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+
+}
+
